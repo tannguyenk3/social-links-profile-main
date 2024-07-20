@@ -1,0 +1,77 @@
+*{
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(0, 0%, 8%);
+}
+.container {
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    position: relative;
+    padding: 20px;
+}
+img {
+    margin-top: 45px;
+    margin-bottom: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+
+}
+h2, h5, h6 {
+    text-align: center;
+}
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+h5 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: hsl(75, 94%, 57%);
+}
+h6 {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 30px;
+}
+a {
+    text-decoration: none;
+}
+button {
+    display: block;
+    margin: 10px auto;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    height: 45px;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+button:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    font-weight: 700;
+}
+@media (min-width: 480px) {
+    .container {
+        max-width: 400px;
+    }
+}
