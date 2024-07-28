@@ -13,6 +13,7 @@ body {
     padding: 20px;
     background-color: hsl(0, 0%, 8%);
 }
+
 .container {
     width: 100%;
     max-width: 460px;
@@ -22,6 +23,7 @@ body {
     position: relative;
     padding: 20px;
 }
+
 img {
     margin-top: 45px;
     margin-bottom: 35px;
@@ -33,26 +35,29 @@ img {
     border-radius: 50%;
 
 }
+
 h2, h5, h6 {
     text-align: center;
 }
+
 h2 {
     color: hsl(0, 0%, 100%);
 }
+
 h5 {
     margin-top: 10px;
     margin-bottom: 25px;
     color: hsl(75, 94%, 57%);
 }
+
 h6 {
     font-size: 14px;
     color: hsl(0, 0%, 100%);
     margin-bottom: 30px;
 }
-a {
+
+.btn {
     text-decoration: none;
-}
-button {
     display: block;
     margin: 10px auto;
     background-color: hsl(0, 0%, 20%);
@@ -63,13 +68,19 @@ button {
     height: 45px;
     border: none;
     transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 650;
+    font-size: 14px;
 }
-button:hover {
+
+.btn:hover {
     color: hsl(0, 0%, 8%);
     background-color: hsl(75, 94%, 57%);
     cursor: pointer;
     font-weight: 700;
 }
+
 @media (min-width: 480px) {
     .container {
         max-width: 400px;
